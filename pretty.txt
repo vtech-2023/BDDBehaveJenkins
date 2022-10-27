@@ -1,0 +1,38 @@
+Feature: login Rediffmail # features/ScenarioOutlineExample.feature:3
+
+  Scenario Outline: Parameterize the login procedure with different data -- @1.1   # features/ScenarioOutlineExample.feature:14
+    Given we navigate to Rediffmail account                                        # features/steps/ScenarioOutlineExampleStep.py:10
+    When we validate the username text                                             # features/steps/ScenarioOutlineExampleStep.py:17
+    And we type in the "selenium.testmay2017" edit box                             # features/steps/ScenarioOutlineExampleStep.py:25
+    And we validate the password text                                              # features/steps/ScenarioOutlineExampleStep.py:30
+    And we type in the "test@1234" field                                           # features/steps/ScenarioOutlineExampleStep.py:38
+    And we click on the sign in button                                             # features/steps/ScenarioOutlineExampleStep.py:43
+    Then we validate inbox page opens                                              # features/steps/ScenarioOutlineExampleStep.py:50
+      Traceback (most recent call last):
+        File "C:\Users\lenovo\Desktop\SeleniumPython\BDDBehaveBasics\venv\lib\site-packages\behave\model.py", line 1329, in run
+          match.run(runner.context)
+        File "C:\Users\lenovo\Desktop\SeleniumPython\BDDBehaveBasics\venv\lib\site-packages\behave\matchers.py", line 98, in run
+          self.func(context, *args, **kwargs)
+        File "features\steps\ScenarioOutlineExampleStep.py", line 56, in step_impl
+          assert False  # Forcefiully failing assertion
+      AssertionError
+
+
+  Scenario Outline: Parameterize the login procedure with different data -- @1.2   # features/ScenarioOutlineExample.feature:15
+    Given we navigate to Rediffmail account                                        # features/steps/ScenarioOutlineExampleStep.py:10
+    When we validate the username text                                             # features/steps/ScenarioOutlineExampleStep.py:17
+    And we type in the "selenium.testmay2017" edit box                             # features/steps/ScenarioOutlineExampleStep.py:25
+    And we validate the password text                                              # features/steps/ScenarioOutlineExampleStep.py:30
+    And we type in the "test@1234" field                                           # features/steps/ScenarioOutlineExampleStep.py:38
+    And we click on the sign in button                                             # features/steps/ScenarioOutlineExampleStep.py:43
+    Then we validate inbox page opens                                              # features/steps/ScenarioOutlineExampleStep.py:50
+      Traceback (most recent call last):
+        File "C:\Users\lenovo\Desktop\SeleniumPython\BDDBehaveBasics\venv\lib\site-packages\behave\model.py", line 1329, in run
+          match.run(runner.context)
+        File "C:\Users\lenovo\Desktop\SeleniumPython\BDDBehaveBasics\venv\lib\site-packages\behave\matchers.py", line 98, in run
+          self.func(context, *args, **kwargs)
+        File "features\steps\ScenarioOutlineExampleStep.py", line 56, in step_impl
+          assert False  # Forcefiully failing assertion
+      AssertionError
+
+

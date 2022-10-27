@@ -1,0 +1,103 @@
+<testsuite name="ScenarioOutlineExample.login Rediffmail" tests="2" errors="0" failures="2" skipped="0" time="50.572819" timestamp="2022-10-27T19:47:10.738817" hostname="lenovo-t450"><testcase classname="ScenarioOutlineExample.login Rediffmail" name="Parameterize the login procedure with different data -- @1.1 " status="failed" time="12.480652"><failure type="AssertionError" message="">
+<![CDATA[
+Failing step: Then we validate inbox page opens ... failed in 0.032s
+Location: features/ScenarioOutlineExample.feature:11
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\SeleniumPython\BDDBehaveBasics\venv\lib\site-packages\behave\model.py", line 1329, in run
+    match.run(runner.context)
+  File "C:\Users\lenovo\Desktop\SeleniumPython\BDDBehaveBasics\venv\lib\site-packages\behave\matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "features\steps\ScenarioOutlineExampleStep.py", line 56, in step_impl
+    assert False  # Forcefiully failing assertion
+AssertionError
+
+Captured stdout:
+
+Text for username is  Username
+
+
+Text for password is  Password
+
+
+
+Text for Write mail is  Write mail]]>
+</failure><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Parameterize the login procedure with different data -- @1.1 
+    Given we navigate to Rediffmail account ... passed in 3.106s
+    When we validate the username text ... passed in 0.059s
+    And we type in the "selenium.testmay2017" edit box ... passed in 0.155s
+    And we validate the password text ... passed in 0.044s
+    And we type in the "test@1234" field ... passed in 0.136s
+    And we click on the sign in button ... passed in 8.949s
+    Then we validate inbox page opens ... failed in 0.032s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+Text for username is  Username
+
+
+Text for password is  Password
+
+
+
+Text for Write mail is  Write mail
+
+
+]]>
+</system-out></testcase><testcase classname="ScenarioOutlineExample.login Rediffmail" name="Parameterize the login procedure with different data -- @1.2 " status="failed" time="38.092167"><failure type="AssertionError" message="">
+<![CDATA[
+Failing step: Then we validate inbox page opens ... failed in 0.052s
+Location: features/ScenarioOutlineExample.feature:11
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\SeleniumPython\BDDBehaveBasics\venv\lib\site-packages\behave\model.py", line 1329, in run
+    match.run(runner.context)
+  File "C:\Users\lenovo\Desktop\SeleniumPython\BDDBehaveBasics\venv\lib\site-packages\behave\matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "features\steps\ScenarioOutlineExampleStep.py", line 56, in step_impl
+    assert False  # Forcefiully failing assertion
+AssertionError
+
+Captured stdout:
+
+Text for username is  Username
+
+
+Text for password is  Password
+
+
+
+Text for Write mail is  Write mail]]>
+</failure><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Parameterize the login procedure with different data -- @1.2 
+    Given we navigate to Rediffmail account ... passed in 28.984s
+    When we validate the username text ... passed in 0.038s
+    And we type in the "selenium.testmay2017" edit box ... passed in 0.127s
+    And we validate the password text ... passed in 0.036s
+    And we type in the "test@1234" field ... passed in 0.097s
+    And we click on the sign in button ... passed in 8.758s
+    Then we validate inbox page opens ... failed in 0.052s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+Text for username is  Username
+
+
+Text for password is  Password
+
+
+
+Text for Write mail is  Write mail
+
+
+]]>
+</system-out></testcase></testsuite>

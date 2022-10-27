@@ -1,0 +1,267 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario Outline",
+      "location": "features/ScenarioOutlineExample.feature:14",
+      "name": "Parameterize the login procedure with different data -- @1.1 ",
+      "status": "failed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/ScenarioOutlineExample.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:10"
+          },
+          "name": "we navigate to Rediffmail account",
+          "result": {
+            "duration": 2.8986661434173584,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/ScenarioOutlineExample.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:17"
+          },
+          "name": "we validate the username text",
+          "result": {
+            "duration": 0.2641866207122803,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "username",
+                "value": "selenium.testmay2017"
+              }
+            ],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:25"
+          },
+          "name": "we type in the \"selenium.testmay2017\" edit box",
+          "result": {
+            "duration": 0.2131507396697998,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:30"
+          },
+          "name": "we validate the password text",
+          "result": {
+            "duration": 0.0670473575592041,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "password",
+                "value": "test@1234"
+              }
+            ],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:38"
+          },
+          "name": "we type in the \"test@1234\" field",
+          "result": {
+            "duration": 0.13309478759765625,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:43"
+          },
+          "name": "we click on the sign in button",
+          "result": {
+            "duration": 8.526335716247559,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/ScenarioOutlineExample.feature:11",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:50"
+          },
+          "name": "we validate inbox page opens",
+          "result": {
+            "duration": 0.04201507568359375,
+            "error_message": [
+              "Traceback (most recent call last):",
+              "  File \"C:\\Users\\lenovo\\Desktop\\SeleniumPython\\BDDBehaveBasics\\venv\\lib\\site-packages\\behave\\model.py\", line 1329, in run",
+              "    match.run(runner.context)",
+              "  File \"C:\\Users\\lenovo\\Desktop\\SeleniumPython\\BDDBehaveBasics\\venv\\lib\\site-packages\\behave\\matchers.py\", line 98, in run",
+              "    self.func(context, *args, **kwargs)",
+              "  File \"features\\steps\\ScenarioOutlineExampleStep.py\", line 56, in step_impl",
+              "    assert False  # Forcefiully failing assertion",
+              "AssertionError"
+            ],
+            "status": "failed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "features/ScenarioOutlineExample.feature:15",
+      "name": "Parameterize the login procedure with different data -- @1.2 ",
+      "status": "failed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/ScenarioOutlineExample.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:10"
+          },
+          "name": "we navigate to Rediffmail account",
+          "result": {
+            "duration": 3.6393544673919678,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/ScenarioOutlineExample.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:17"
+          },
+          "name": "we validate the username text",
+          "result": {
+            "duration": 0.06578350067138672,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "username",
+                "value": "selenium.testmay2017"
+              }
+            ],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:25"
+          },
+          "name": "we type in the \"selenium.testmay2017\" edit box",
+          "result": {
+            "duration": 0.11708307266235352,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:30"
+          },
+          "name": "we validate the password text",
+          "result": {
+            "duration": 0.03402447700500488,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "password",
+                "value": "test@1234"
+              }
+            ],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:38"
+          },
+          "name": "we type in the \"test@1234\" field",
+          "result": {
+            "duration": 0.07705402374267578,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:43"
+          },
+          "name": "we click on the sign in button",
+          "result": {
+            "duration": 8.452242612838745,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/ScenarioOutlineExample.feature:11",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:50"
+          },
+          "name": "we validate inbox page opens",
+          "result": {
+            "duration": 0.051004648208618164,
+            "error_message": [
+              "Traceback (most recent call last):",
+              "  File \"C:\\Users\\lenovo\\Desktop\\SeleniumPython\\BDDBehaveBasics\\venv\\lib\\site-packages\\behave\\model.py\", line 1329, in run",
+              "    match.run(runner.context)",
+              "  File \"C:\\Users\\lenovo\\Desktop\\SeleniumPython\\BDDBehaveBasics\\venv\\lib\\site-packages\\behave\\matchers.py\", line 98, in run",
+              "    self.func(context, *args, **kwargs)",
+              "  File \"features\\steps\\ScenarioOutlineExampleStep.py\", line 56, in step_impl",
+              "    assert False  # Forcefiully failing assertion",
+              "AssertionError"
+            ],
+            "status": "failed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/ScenarioOutlineExample.feature:3",
+  "name": "login Rediffmail",
+  "status": "failed",
+  "tags": []
+}
+]
